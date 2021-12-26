@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+@font-face {
+    font-family: 'Revamped';
+    src: local('Revamped'), url('/static/fonts/Revamped-X3q1a.ttf') format("truetype");
+}
+
+body {
+    background-image: url('/static/img/background.jpg');
+    background-position: topcenter;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.time-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Revamped';
+    font-size: 400%;
+    color: #fff;
+    padding-top: 100px;
+}
+
+.time-container > #am-pm {
+    position: relative;
+    top: 0.2em;
+    font-size: 100%;
+    margin-left: 2%;
+    vertical-align: bottom;
+}
+
+.bottom-container {
+    color: #fff;
+    font-size: 250%;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 30px;
+}
+
+.fahrenheit {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
